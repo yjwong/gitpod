@@ -38,7 +38,7 @@ data:
                 }
             },
             "workspaceClass": {
-                "": {
+                "default": {
                     "container": {
                         {{- if .Values.workspaceSizing.memoryRequest }}
                         "requests": {
